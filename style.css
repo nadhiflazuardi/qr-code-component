@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+}
+
+.content img {
+    margin: 10px;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.content .text-container {
+    width: 90%;
+    text-align: center;
+}
+
+.content .text-container h1 {
+    color: hsl(218, 44%, 22%);
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
