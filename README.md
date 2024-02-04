@@ -8,7 +8,6 @@ This is a simple QR code component project created as a part of the Frontend Men
 
 ## Features
 
-- Responsive design
 - Uses the "Outfit" font from Google Fonts
 - Centered content using flexbox
 
